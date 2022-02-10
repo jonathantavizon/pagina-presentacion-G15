@@ -84,14 +84,14 @@ body {
     color: rgb(78, 78, 161);
   }
   
-  .habilidades {
+  .skills {
     margin-left: -20px;
     margin-bottom: 0px;
   }
-  .habilidades li {
+  .skills li {
     padding: 5px;
   }
-  .habilidades li span {
+  .skills li span {
     color: #131111;
   }
   
@@ -100,7 +100,7 @@ body {
     color: #131111;
   }
 
-.imgRedonda {
+.image-profile {
   width: 150px;
   height: 150px;
   border-radius: 50%;
