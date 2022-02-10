@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(205, 209, 150);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 3%;
+}
+
+.titulo{
+    text-align: center;
+}

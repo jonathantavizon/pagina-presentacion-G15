@@ -1,0 +1,111 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: radial-gradient(#e4a7a7 25%, #8ab4ec 74%);
+    font-family: system-ui;
+  }
+  
+  .limpiar {
+    clear: both;
+  }
+  
+  .plantilla {
+    height: 1150px;
+    width: 800px;
+    background-color: white;
+    box-shadow: 5px 7px 15px 5px #bee492;
+    margin: 20px auto;
+  }
+  
+  .cabecera {
+    background-color: #151b29;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .perfil {
+    width: 150px;
+    border-radius: 50%;
+  }
+  
+  .nombre {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .nombre span {
+    font-weight: 100;
+    color: #c5c996;
+  }
+  
+  .carrera {
+    font-size: 20px;
+    color: #c7c7c7;
+    margin: 0px;
+    margin-top: 10px;
+  }
+  
+  .contacto {
+    width: 35%;
+    float: left;
+  }
+  
+  .informacion {
+    width: 62%;
+    float: left;
+  }
+  
+  .separacion {
+    border-left: 1px solid #7d0ac0;
+    height: 800px;
+    width: 2%;
+    margin-top: 30px;
+    float: left;
+  }
+  
+  .caja-contenido {
+    padding: 20px;
+  }
+  
+  .titulo{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .parrafo1 {
+    color: #131111;
+    margin-bottom: -5px;
+  }
+  
+  .fa {
+    color: rgb(78, 78, 161);
+  }
+  
+  .habilidades {
+    margin-left: -20px;
+    margin-bottom: 0px;
+  }
+  .habilidades li {
+    padding: 5px;
+  }
+  .habilidades li span {
+    color: #131111;
+  }
+  
+  .parrafo2 {
+    font-size: 14px;
+    color: #131111;
+  }
+
+.imgRedonda {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+footer{
+      text-align: center;
+  }

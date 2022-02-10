@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 1.4rem;
+  }
+
+  button {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  header {
+    width: 100vw;
+    height: 60px;
+  }
+  
+  header nav {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  header nav .nav-seccionDerecha {
+    width: 250px;
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  
+  nav .nav-seccionDerecha li {
+    position: relative;
+  }
+  
+  nav .nav-seccionDerecha li a {
+    font-size: 1.3rem;
+    margin-right: 12px;
+    color: #000000de;
+  }
+  
+  nav .nav-seccionDerecha li a:hover {
+    text-decoration: underline;
+  }
+  
+  nav .nav-seccionDerecha li a .iconoMenu {
+    width: 24px;
+    fill: #5f6368;
+    margin: 0 10px;
+  }
+  
+  nav .nav-seccionDerecha li a .iconoMenu:hover {
+    background: #f2f5f0;
+    border-radius: 100%;
+    box-shadow: 0px 0px 1px 8px #f2f5f0;
+  }
+  
+  nav .nav-seccionDerecha li .appsGoogle {
+    opacity: 0;
+    position: absolute;
+    background: #494b47;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 18px;
+    color: #ffffff;
+    padding: 4px;
+    height: 26px;
+    top: 170%;
+    right: -25%;
+    width: 90px;
+    transition: opacity 0s;
+  }
+  
+  nav .nav-seccionDerecha li:hover .appsGoogle {
+    opacity: 1;
+    transition-delay: 0.7s;
+  }
+  
+  nav .nav-seccionDerecha li a button {
+    min-width: 100px;
+    height: 36px;
+    color: #ffffff;
+    background: #1a73e8;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #4285f4;
+    font-size: 1.4rem;
+  }
+  
+  nav .nav-seccionDerecha li a button:hover {
+    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+  }
+  
+  main {
+    height: auto;
+    text-align: center;
+  }
+  
+  main .logo {
+    margin-top: 10vh;
+  }
+  
+  main .busqueda {
+    width: 582px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .busqueda .busqueda-microfono {
+    width: 24px;
+  }
+
+  main .busqueda:hover {
+    box-shadow: 0px 0px 10px 2px #dfe1e5;
+  }
+  
+  main .busqueda div {
+    text-align: center;
+    max-width: 582px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  main .busqueda div span {
+    margin-left: 15px;
+    font-size: 18px;
+    color: #000000;
+    opacity: 0.4;
+  }
+  
+  main .busqueda div a {
+    margin-right: 14px;
+  }
+  
+  main .busqueda div input {
+    width: 80%;
+    font-size: 16px;
+    height: 44px;
+    outline: none;
+    border: none;
+  }
+  
+  main .busqueda div input:focus {
+    outline: none;
+  }
+  
+  main .botones {
+    width: 582px;
+    margin: 0 auto;
+  }
+  
+  main .botones button {
+    border: 1px solid rgb(248, 249, 250);
+    height: 40px;
+    padding: 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    line-height: 10px;
+    font-size: 14px;
+    color: rgb(60, 64, 67);
+    background-color: rgb(248, 249, 250);
+    margin-bottom: 20px;
+  }
+  
+  main .botones button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+    background-color: #f8f8f8;
+  }
+  
+  main .botones span {
+    font-size: 12px;
+    color: #494b47;
+  }
+  
+  main .botones span a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    width: 100vw;
+    height: 95;
+    position: absolute;
+    bottom: 0;
+    color: #757779;
+  }
+  
+  footer .pais, footer .informacion {
+    align-items: center;
+    width: 100vw;
+    height: 46.5px;
+    background-color: #f2f2f2;
+  }
+  
+  footer .pais {
+    line-height: 50px;
+  }
+  
+  footer .pais span {
+    margin-left: 25px;
+  }
+  
+  footer .informacion {
+    border-top: 1px solid #dadce0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  footer .informacion ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  footer .informacion .informacionIzquierda {
+    justify-content: flex-start;
+    margin-left: 20px;
+  }
+  
+  footer .informacion .informacionDerecha {
+    justify-content: flex-end;
+    margin-right: 60px;
+  }
+  
+  footer .informacion ul li {
+    margin: 7px;
+  }
