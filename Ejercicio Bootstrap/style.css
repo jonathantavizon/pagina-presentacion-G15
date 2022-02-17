@@ -1,0 +1,18 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.unsam.edu.ar%2Ftss%2Fwp-content%2Fuploads%2F2017%2F08%2Fa0-770x430.jpg&f=1&nofb=1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body nav{
+    background-image: radial-gradient(rgb(200, 200, 221), rgb(116, 103, 117));
+}
+
+footer{
+    text-align: center;
+    background-color: brown;
+}
